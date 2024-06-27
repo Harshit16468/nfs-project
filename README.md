@@ -101,6 +101,9 @@ This repository contains the source code for a Network File System (NFS) impleme
 
 ### The Naming Server (NMS)
 The Naming Server (NS) autonomously issues commands to the connected Storage Server (SS) for priority-based operations (create, delete, and copy files) without direct client-to-SS connections.
+### Storage Server
+The Storage Servers (SS) acts as the data stores In our distributed file system implementation in C, Storage Servers play a pivotal role as the backbone of the Network File System (NFS). These servers shoulder the critical responsibility of handling the physical storage and retrieval of files and folders within the network. Tasked with the management of data persistence, Storage Servers ensure that files are stored securely and efficiently, forming the bedrock of reliable file storage and access. By distributing data across multiple servers, our system aims to enhance performance, scalability, and fault tolerance, contributing to a robust and seamless file management experience for clients connected to the network. The Storage Servers, in essence, act as the guardians of data integrity, facilitating a distributed and resilient file storage infrastructure.
+
 
 ### Multiple Clients Handling:
 
